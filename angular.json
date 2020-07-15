@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@clr/icons/clr-icons.min.css",
+              "node_modules/@clr/ui/clr-ui.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js",
+              "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
+              "node_modules/@clr/icons/clr-icons.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "what-is-angular"
+    }
+  },
+  "defaultProject": "what-is-angular",
+  "cli": {
+    "analytics": "27e36ef3-8a62-46ae-95f6-f7722fc80656"
+  }
 }

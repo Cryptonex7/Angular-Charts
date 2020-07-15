@@ -1,0 +1,46 @@
+<app-bar-chart
+  [width]="'20%'"
+  [height]="200"
+  *ngIf="
+    stud_hired_per_year_bar &&
+    stud_hired_per_year_bar.data &&
+    stud_hired_per_year_bar.data.length > 0
+  "
+  [barChartData]="stud_hired_per_year_bar.data"
+  [barChartLabels]="stud_hired_per_year_bar.labels"
+></app-bar-chart>
+<br><hr>
+<app-pie-chart
+  [width]="'20%'"
+  [height]="200"
+  *ngIf="
+    stud_branch_pie &&
+    stud_branch_pie.data &&
+    stud_branch_pie.data.length > 0
+  "
+  [pieChartData]="stud_branch_pie.data"
+  [pieChartLabels]="stud_branch_pie.labels"
+></app-pie-chart>
+<br><hr>
+<app-bar-chart
+  [width]="'20%'"
+  [height]="200"
+  *ngIf="
+    stud_hired_per_year_bar &&
+    stud_hired_per_year_bar.data &&
+    stud_hired_per_year_bar.data.length > 0
+  "
+  [barChartData]="stud_hired_per_year_bar.data"
+  [barChartLabels]="stud_hired_per_year_bar.labels"
+  barChartType="horizontalBar"
+></app-bar-chart>
+<br><hr>
+<app-line-chart
+  [width]="'20%'"
+  [height]="200"
+  *ngIf="
+    stud_cgpa_line && stud_cgpa_line.data && stud_cgpa_line.data.length > 0
+  "
+  [lineChartData]="stud_cgpa_line.data"
+  [lineChartLabels]="stud_cgpa_line.labels"
+></app-line-chart>

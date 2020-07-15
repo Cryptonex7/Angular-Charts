@@ -1,0 +1,13 @@
+<div class="myChart" [ngStyle]="{height: height, width: width}">
+  <canvas
+    height="{{height}}"
+    baseChart
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [options]="barChartOptions"
+    [colors]="barChartColors"
+    [legend]="barChartLegend"
+    [chartType]="barChartType"
+    [plugins]="barChartPlugins"
+  ></canvas>
+</div>

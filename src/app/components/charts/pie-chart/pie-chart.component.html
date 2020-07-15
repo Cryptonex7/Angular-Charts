@@ -1,0 +1,14 @@
+<div class="myChart" [ngStyle]="{height: height, width: width}">
+    <canvas
+      height="{{height}}"
+      baseChart
+      [datasets]="pieChartData"
+      [labels]="pieChartLabels"
+      [options]="pieChartOptions"
+      [colors]="pieChartColors"
+      [legend]="pieChartLegend"
+      [chartType]="pieChartType"
+      [plugins]="pieChartPlugins"
+    ></canvas>
+  </div>
+  

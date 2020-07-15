@@ -1,0 +1,12 @@
+.body {
+  height: calc(100vh - 64px);
+}
+
+.sidebar {
+  width: 360px;
+  background-color: #212121;
+}
+
+.content {
+  width: calc(100vw - 360px);
+}

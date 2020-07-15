@@ -1,0 +1,21 @@
+.header {
+    height: 64px;
+    width: 100%;
+    padding: 0px 16px;
+    background-color: #007afb;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.avatar {
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+.button {
+    padding: 18px 26px;
+}
+
+.button:hover {
+    background-color: #00000052;
+}

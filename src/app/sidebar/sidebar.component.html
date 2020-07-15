@@ -1,0 +1,41 @@
+<div class="sidebar-container flex-col">
+  <div class="banner"></div>
+  <div class="list flex-col">
+    <div class="list-title">actions</div>
+    <div class="list-items">
+      <div
+        class="list-item"
+        [routerLink]="['']"
+        routerLinkActive="list-item-active"
+        [routerLinkActiveOptions]="{exact: true}"
+        (click)="getState().onChange('This is Home')"
+      >
+        Home
+      </div>
+      <div
+        class="list-item"
+        [routerLink]="['tasks']"
+        routerLinkActive="list-item-active"
+        (click)="getState().onChange('This is Tasks')"
+      >
+        Tasks
+      </div>
+      <div
+        class="list-item"
+        [routerLink]="['work']"
+        routerLinkActive="list-item-active"
+        (click)="getState().onChange('This is Work')"
+      >
+        Work
+      </div>
+      <div
+        class="list-item"
+        [routerLink]="['connect']"
+        routerLinkActive="list-item-active"
+        (click)="getState().onChange('This is Connect')"
+      >
+        Connect
+      </div>
+    </div>
+  </div>
+</div>

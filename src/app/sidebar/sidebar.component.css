@@ -1,0 +1,41 @@
+.banner {
+  background-image: url(https://christianliebel.com/wp-content/uploads/2016/02/Angular2.png);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.list {
+  margin-top: 50px;
+}
+
+.list-title {
+  font-size: 2rem;
+  font-variant: small-caps;
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.list-items {
+  width: 100%;
+  padding-top: 10px;
+  border-top: 0.5px solid #555;
+}
+
+.list-item {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.8rem;
+  transition: background-color 250ms;
+  cursor: pointer;
+}
+
+.list-item-active {
+  background-color: #000;
+  border: none;
+  outline: none;
+}
+
+.list-item:hover {
+  background-color: #000;
+}
